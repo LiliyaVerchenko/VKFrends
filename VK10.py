@@ -29,8 +29,8 @@ class User:
             print(user)
         return
 
-user1 = User(user_id_1, token)
-user2 = User(user_id_2, token)
+user1 = User(7629350, '44b622d4f531bfac2180988aefe4c5a746c2450a53fccd4f1f742416ad36e919e979646eb601ff4242eae')
+user2 = User(12087994, '44b622d4f531bfac2180988aefe4c5a746c2450a53fccd4f1f742416ad36e919e979646eb601ff4242eae')
 user1 & user2
 user1.get_mutual_friends()
 
